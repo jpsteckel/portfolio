@@ -3,7 +3,7 @@
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
-export default function CodeBlock({ children, language = 'javascript', className }) {
+export default function CodeBlock({ text, language = 'javascript', className }) {
 
   return (
     <SyntaxHighlighter
@@ -13,7 +13,7 @@ export default function CodeBlock({ children, language = 'javascript', className
       customStyle={{ background: 'black', paddingLeft: '60px', paddingRight: '60px', borderRadius: '30px' }}
       className={className}
     >
-      {children}
+      {text}
     </SyntaxHighlighter>
   );
 }
