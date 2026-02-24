@@ -51,7 +51,7 @@ const NoiseMaterial = ({ uMouse, scrollPositionNoise }) => {
           float fbm(vec2 p) {
             float value = -.5;
             float amplitude = 0.4;
-            float frequency = 0.24;
+            float frequency = 0.3;
             for (int i = 0; i < 4; i++) {
               value += amplitude * noise(p * frequency);
               frequency *= 2.0;
@@ -67,7 +67,7 @@ const NoiseMaterial = ({ uMouse, scrollPositionNoise }) => {
 
             float noiseValue = fbm(pos * 5.0 + time * 0.5);
 
-            vec3 color = vec3(noiseValue * 0.9 + 0.5);
+            vec3 color = vec3(-noiseValue * 2.5-0.3);
             
             gl_FragColor = vec4(color, 1.0);
           }

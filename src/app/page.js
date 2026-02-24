@@ -23,12 +23,12 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <div className="flex flex-col space-y-4 bg-transparent font-serif items-center justify-center h-lvh w-screen">
-        <div className="relative text-4xl sm:text-6xl font-bold text-center text-white pointer-events-none">
-          Test
+        <div className="relative text-4xl sm:text-4xl text-center text-white pointer-events-none">
+          Josh Steckel
           <div className="absolute inset-0 w-full h-full bg-black/[0.5] p-2 text-center z-[-2] blur-md"></div>
         </div>
         <div className="relative text-sm font-light w-lg text-center pointer-events-none">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          I am an Electrical Engineering (Bachelor's in Engineering) student at the University of Delaware.
           <div className="absolute inset-0 w-full h-full bg-black/[0.5] p-2 text-center z-[-2] blur-md"></div>
         </div>
       </div>
