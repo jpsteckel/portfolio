@@ -22,14 +22,27 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
-      <div className="flex flex-col space-y-4 bg-transparent font-serif items-center justify-center h-lvh w-screen">
-        <div className="relative text-4xl sm:text-4xl text-center text-white pointer-events-none">
+      <div className="flex flex-col space-y-4 bg-transparent font-serif items-center justify-start p-40 h-lvh w-screen">
+        <div className="relative text-4xl sm:text-4xl font-black text-center text-black pointer-events-none">
           Josh Steckel
-          <div className="absolute inset-0 w-full h-full bg-black/[0.5] p-2 text-center z-[-2] blur-md"></div>
         </div>
-        <div className="relative text-sm font-light w-lg text-center pointer-events-none">
-          I am an Electrical Engineering (Bachelor's in Engineering) student at the University of Delaware.
-          <div className="absolute inset-0 w-full h-full bg-black/[0.5] p-2 text-center z-[-2] blur-md"></div>
+        <div className="relative text-sm font-bold text-black w-2xl text-center pointer-events-none">
+          I am a first-year Electrical Engineering (Bachelor's in Engineering) student at the University of Delaware, hoping to focus on RF technology and embedded systems. I am passionate about learning and applying my knowledge to real-world problems, and I am eager to gain experience in the field through internships and research opportunities.
+        </div>
+        <div className="relative text-sm font-bold text-black w-2xl text-center pointer-events-none">
+          Here are some of my projects, feel free to check them out!
+        </div>
+      <div className="relative flex flex-col space-y-4 items-center justify-center" id="project1">
+        <div className="relative text-2xl font-bold text-black w-2xl text-center pointer-events-none">
+          1. University of Delaware Bus Departure Board
+        </div>
+        <div className="flex flex-row items-center justify-center min-w-screen">
+          <Image
+            src="/../../../board.png"
+            alt="Bus Departure Board"
+            width={400}
+            height={400}
+            className="relative rounded-sm shadow-lg pointer-events-none"/>
         </div>
       </div>
       <div className="relative flex flex-col h-lvh w-full bg-zinc-950 justify-center" style={{ opacity: (Math.sin((Math.PI * scrollPosition) / (2 * 830))) ** 3 }}>
@@ -49,6 +62,7 @@ export default function Home() {
         <div className="absolute inset-0 top-0 left-0 w-full h-[lvh+70] bg-black z-[-2] blur-sm"></div>
       </div>
       <div className="h-lvh w-full bg-transparent" />
+      </div>
     </div>
   );
 }
