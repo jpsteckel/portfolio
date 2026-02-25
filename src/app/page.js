@@ -27,7 +27,7 @@ export default function Home() {
           Josh Steckel
         </div>
         <div className="relative text-sm font-bold text-black w-2xl text-center pointer-events-none">
-          I am a first-year Electrical Engineering (Bachelor's in Engineering) student at the University of Delaware, hoping to focus on RF technology and embedded systems. I am passionate about learning and applying my knowledge to real-world problems, and I am eager to gain experience in the field through internships and research opportunities.
+          I am a first-year Electrical Engineering (Bachelors in Engineering) student at the University of Delaware, hoping to focus on RF technology and embedded systems. I am passionate about learning and applying my knowledge to real-world problems, and I am eager to gain experience in the field through internships and research opportunities.
         </div>
         <div className="relative text-sm font-bold text-black w-2xl text-center pointer-events-none">
           Here are some of my projects, feel free to check them out!
