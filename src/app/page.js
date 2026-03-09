@@ -30,7 +30,7 @@ export default function Home() {
           Josh Steckel
         </div>
         <div className="relative text-sm font-bold text-black w-2xl text-center pointer-events-none">
-          I am a first-year Electrical Engineering (Bachelors in Engineering) student at the University of Delaware, hoping to focus on RF technology and embedded systems. I am passionate about learning and applying my knowledge to real-world problems, and I am eager to gain experience in the field through internships and research opportunities. I&apos;ve created this website to showcase my work and skills.
+          I am a first-year Electrical Engineering (Bachelors of Engineering) student at the University of Delaware, hoping to focus on RF technology and embedded systems. I am passionate about learning and applying my knowledge to real-world problems, and I am eager to gain experience in the field through internships and research opportunities. I&apos;ve created this website to showcase my work and skills.
         </div>
         <div className="relative text-sm font-bold text-black w-2xl text-center pointer-events-none">
           Here are some of my projects, feel free to check them out!
@@ -58,7 +58,7 @@ export default function Home() {
       <div className="relative text-4xl sm:text-4xl font-black text-center text-black pointer-events-none">
           Behind the noise background effect:
         </div>
-      <div className="relative flex flex-col h-lvh w-full bg-zinc-950 justify-center" style={{ opacity: (Math.sin((Math.PI * scrollPosition) / (2 * 830))) ** 3 }}>
+      <div className="relative flex flex-col h-lvh w-full bg-zinc-950 justify-center" style={{ opacity: (Math.sin((Math.PI * scrollPosition) / (3.8 * 830))) ** 3 }}>
         <div className="pt-20 relative text-2xl text-center text-white mb-4 mt-4">Random function for interactive Brownian Noise background:</div>
         <CodeBlock
           language="glsl" 
