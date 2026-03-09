@@ -58,7 +58,7 @@ export default function Home() {
         <CodeBlock
           language="glsl" 
           className={"w-auto"}
-          text={['//OpenGL Shading Language (GLSL):\n\nvec2 random(vec2 p) {\n\treturn fract(sin(vec2(dot(p, vec2(223.36, 480.18)), dot(p, vec2(112.87, 327.57)))) * 50567.7254 + (sin(abs(uMouse[0]+184.51)) + sin(abs(uMouse[1]+259.62)))/3.0 + uTime/40.0);\n}\n\nfloat noise(vec2 p) {\n\tvec2 i = floor(p);\n\tvec2 f = fract(p);\n\tvec2 u = f * f * (3.0 - 2.0 * f);\n\n\tfloat a = dot(random(i), vec2(0.5));\n\tfloat b = dot(random(i + vec2(1.0, 0.0)), vec2(0.5));\n\tfloat c = dot(random(i + vec2(0.0, 1.0)), vec2(0.5));\n\tfloat d = dot(random(i + vec2(1.0, 1.0)), vec2(0.5)); \n\n\treturn mix(mix(a, b, u.x), mix(c, d, u.x), u.y) * 2.0 - 1.0;\n}',]}
+          text={['//OpenGL Shading Language (GLSL):\n\nvec2 random(vec2 p) {\n\treturn fract(sin(vec2(dot(p, vec2(223.36, 480.18)), dot(p, vec2(112.87, 327.57)))) * 50567.7254 + (sin(abs(uMouse[0]+184.51)) + sin(abs(uMouse[1]+259.62)))/3.0 + uTime/40.0);\n}\n\n\\\\Takes a point and returns the noise value at that point.\nfloat noise(vec2 p) {\n\tvec2 i = floor(p);\n\tvec2 f = fract(p);\n\tvec2 u = f * f * (3.0 - 2.0 * f);\n\n\tfloat a = dot(random(i), vec2(0.5));\n\tfloat b = dot(random(i + vec2(1.0, 0.0)), vec2(0.5));\n\tfloat c = dot(random(i + vec2(0.0, 1.0)), vec2(0.5));\n\tfloat d = dot(random(i + vec2(1.0, 1.0)), vec2(0.5)); \n\n\treturn mix(mix(a, b, u.x), mix(c, d, u.x), u.y) * 2.0 - 1.0;\n}',]}
         />
         <div className="pt-1 text-md text-center text-white mb-4 mt-4">
           Where:
