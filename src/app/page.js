@@ -3,6 +3,8 @@ import Image from "next/image";
 import CodeBlock from "./components/codeblock";
 import { useState, useEffect } from "react";
 
+import proj1pic from '../../public/images/board.png';
+
 export default function Home() {
   const [scrollPosition, setScrollPosition] = useState(0);
 
@@ -38,7 +40,7 @@ export default function Home() {
         </div>
         <div className="flex flex-row items-center justify-center min-w-screen">
           <Image
-            src="/images/board.png"
+            src={proj1pic}
             alt="Bus Departure Board"
             width={600}
             height={400}
