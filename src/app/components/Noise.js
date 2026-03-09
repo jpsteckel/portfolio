@@ -131,10 +131,12 @@ export default function NoiseCanvas() {
       }}>
         <FullscreenPlane uMouse={mousePosition} scrollPositionNoise={scrollPositionNoise} />
       </Canvas>
+      {/*
       <div className='fixed bottom-2 left-2 text-white bg-black bg-opacity-50 p-2 rounded'>
         Mouse Position: {`(${mousePosition.x.toFixed(2)}, ${mousePosition.y.toFixed(2)})`}
         Scroll Position: {scrollPositionNoise}
       </div>
+      */}
     </div>
   );
 }
