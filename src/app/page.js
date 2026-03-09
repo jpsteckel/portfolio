@@ -50,6 +50,9 @@ export default function Home() {
         <div className="relative text-md font-bold text-black w-2xl text-center pointer-events-none">
           I created this bus departure board using an ESP32 and a 128x160 OLED screen. The board displays real-time bus departure information, including the current time, bus route, and departure time. I developed and deployed an AWS Lambda function to scrape data from the university&apos;s ETA Transit website and act as an API for the ESP32, which fetches the data every minute and updates the display. The project was built using python, docker, the Arduino IDE and C++ programming language.
         </div>
+        <div className="relative text-md font-bold text-black w-2xl text-center pointer-events-none">
+          Tiktok I made documenting the process:
+        </div>
         <TikTokEmbed/>
       </div>
       <div className="relative text-4xl sm:text-4xl font-black text-center text-black pointer-events-none">
