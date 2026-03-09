@@ -27,7 +27,7 @@ export default function Home() {
           Josh Steckel
         </div>
         <div className="relative text-sm font-bold text-black w-2xl text-center pointer-events-none">
-          I am a first-year Electrical Engineering (Bachelors in Engineering) student at the University of Delaware, hoping to focus on RF technology and embedded systems. I am passionate about learning and applying my knowledge to real-world problems, and I am eager to gain experience in the field through internships and research opportunities. I've created this website to showcase my work and skills.
+          I am a first-year Electrical Engineering (Bachelors in Engineering) student at the University of Delaware, hoping to focus on RF technology and embedded systems. I am passionate about learning and applying my knowledge to real-world problems, and I am eager to gain experience in the field through internships and research opportunities. I&apos;ve created this website to showcase my work and skills.
         </div>
         <div className="relative text-sm font-bold text-black w-2xl text-center pointer-events-none">
           Here are some of my projects, feel free to check them out!
@@ -45,7 +45,7 @@ export default function Home() {
             className="relative rounded-sm shadow-lg pointer-events-none"/>
         </div>
         <div className="relative text-sm font-bold text-black w-2xl text-center pointer-events-none">
-          I created bus departure board for the University of Delaware using an ESP32 and a 128x160 OLED screen. The board displays real-time bus departure information, including the current time, bus route, and departure time. I developed and deployed an AWS Lambda function to scrape data from the university's ETA Transit website and act as an API for the ESP32, which fetches the data every minute and updates the display. The project was built using python, docker, the Arduino IDE and C++ programming language.
+          I created bus departure board for the University of Delaware using an ESP32 and a 128x160 OLED screen. The board displays real-time bus departure information, including the current time, bus route, and departure time. I developed and deployed an AWS Lambda function to scrape data from the university&apos;s ETA Transit website and act as an API for the ESP32, which fetches the data every minute and updates the display. The project was built using python, docker, the Arduino IDE and C++ programming language.
         </div>
       </div>
       <div className="relative text-4xl sm:text-4xl font-black text-center text-black pointer-events-none">
