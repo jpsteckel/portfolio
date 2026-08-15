@@ -58,7 +58,7 @@ export default function Home() {
             DESCRIPTION
           </div>
           <div className="relative text-md text-black max-w-4xl text-center pointer-events-none">
-            I've designed this custom meshtastic node to fit inside an Altoids tin. The node is based on the ESP32 microcontroller and SX1262 LoRa transceiver. The node is powered by a 3.7V LiPo battery and has a built-in charging circuit. The node is also equipped with a small LCD display to show the current status of the node and the mesh network.
+            I&apos;ve designed this custom meshtastic node to fit inside an Altoids tin. The node is based on the ESP32 microcontroller and SX1262 LoRa transceiver. The node is powered by a 3.7V LiPo battery and has a built-in charging circuit. The node is also equipped with a small LCD display to show the current status of the node and the mesh network.
           </div>
           <div className="relative text-lg text-black font-bold max-w-4xl text-center pointer-events-none">
             STATUS
@@ -95,7 +95,7 @@ export default function Home() {
             DESCRIPTION
           </div>
           <div className="relative text-md text-black max-w-4xl text-center pointer-events-none">
-            I created this bus departure board using an ESP32 and a 128x160 OLED screen. The board displays real-time bus departure information, including the current time, bus route, and departure time. I developed and deployed an AWS Lambda function to scrape data from the university&apos;s ETA Transit website and act as an API for the ESP32, which fetches the data every minute and updates the display. The project was built using python, docker, the Arduino IDE and C++ programming language.
+            I created this bus departure board using an ESP32 and a 128x160 OLED screen. The board displays real-time bus departure information, including the current time, bus route, and departure time. I developed and deployed an AWS Lambda function to scrape data from the university&apos;s ETA Transit website and act as an API for the ESP32, which fetches the data every minute and updates the display. The project was built using Python, Docker, the Arduino IDE and C++ programming language.
           </div>
           <div className="relative text-lg text-black font-bold max-w-4xl text-center pointer-events-none">
             STATUS
