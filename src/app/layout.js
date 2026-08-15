@@ -1,11 +1,11 @@
-import { Roboto } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Noise from "./components/Noise";
 import Image from "next/image";
 
-const roboto = Roboto({
+const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${roboto.variable} antialiased justify-items-center`}
+        className={`${poppins.variable} antialiased justify-items-center`}
       >
         {/*
         <div id="header" className="fixed h-15 z-40">

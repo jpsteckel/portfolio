@@ -39,7 +39,7 @@ export default function Home() {
           systems, and firmware development. Demonstrated ability to lead technical subteams and deliver measurable results on real-world
           space systems and embedded hardware projects. Seeking an internship in aerospace or defense engineering.        </div>
         <div className="relative text-sm text-black w-4xl text-center pointer-events-none">
-          Here are some of my projects, feel free to check them out!
+          Here are some of my personal projects, feel free to check them out!
           Also, make sure WebGL is enabled in your browser to see the interactive background effect. More info at the bottom of the page.
         </div>
         <div className="relative flex flex-col space-y-4 items-center justify-center" id="project1">
