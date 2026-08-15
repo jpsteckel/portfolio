@@ -101,7 +101,7 @@ export default function Home() {
             STATUS
           </div>
           <div className="relative text-md text-black max-w-4xl text-center pointer-events-none">
-            I am finished with this project. I've designed a housing for the board and used it successfully for a few months to check bus departure times while living on campus. I plan to make a second version of the board with a larger, realistic screen and more features, such as displaying the current location of the bus on a map. I may decide to track larger a larger transit system such as MTA as well in this future version.
+            I am finished with this project. I&apos;ve designed a housing for the board and used it successfully for a few months to check bus departure times while living on campus. I plan to make a second version of the board with a larger, realistic screen and more features, such as displaying the current location of the bus on a map. I may decide to track larger a larger transit system such as MTA as well in this future version.
           </div>
         </div>
         <div className="relative text-4xl sm:text-3xl pt-10 font-bold text-center text-black pointer-events-none">
