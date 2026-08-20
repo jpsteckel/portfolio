@@ -24,3 +24,61 @@ body {
   color: var(--foreground);
   font-family: var(--font-poppins), sans-serif;
 }
+
+.project-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  overflow: hidden;
+  padding: 0.75rem 1.15rem;
+  border: 1px solid #282828;
+  border-radius: 999px;
+  color: #282828;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: color 180ms ease, background-color 180ms ease, transform 180ms ease;
+}
+
+.project-link::before {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(115deg, transparent 20%, rgba(255, 255, 255, 0.9) 48%, transparent 76%);
+  content: "";
+  transform: translateX(-120%);
+  animation: project-link-shine 2.8s ease-in-out infinite;
+}
+
+.project-link span {
+  position: relative;
+}
+
+.project-link:hover,
+.project-link:focus-visible {
+  background-color: #282828;
+  color: #ffffff;
+  outline: none;
+  transform: translateY(-3px);
+}
+
+.project-link-arrow {
+  transition: transform 180ms ease;
+}
+
+.project-link:hover .project-link-arrow,
+.project-link:focus-visible .project-link-arrow {
+  transform: translateX(0.35rem);
+}
+
+@keyframes project-link-shine {
+  0%,
+  35% {
+    transform: translateX(-120%);
+  }
+  65%,
+  100% {
+    transform: translateX(120%);
+  }
+}

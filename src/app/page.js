@@ -46,6 +46,16 @@ export default function Home() {
           <div className="relative text-2xl font-bold text-black w-2xl text-center pointer-events-none">
             1. Altoids Tin Meshtastic Node
           </div>
+          <a
+            className="project-link"
+            href="https://github.com/jpsteckel/mintastic"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Open the Mintastic project on GitHub"
+          >
+            <span>Explore Mintastic</span>
+            <span className="project-link-arrow" aria-hidden="true">-&gt;</span>
+          </a>
           <div className="flex flex-row items-center justify-center min-w-screen space-x-10">
             <Image
               src={proj1pic1}
@@ -87,7 +97,7 @@ export default function Home() {
               width={400}
               className="relative rounded-sm shadow-lg pointer-events-none" />
             <div className="relative text-md font-bold text-black text-center pointer-events-none">
-              Tiktok I made documenting the process:
+              Video I made documenting the process:
               <TikTokEmbed />
             </div>
           </div>
