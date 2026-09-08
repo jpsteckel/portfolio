@@ -38,6 +38,13 @@ export default function Home() {
           Electrical Engineering student at the University of Delaware with hands-on experience in RF communications, PCB design, embedded
           systems, and firmware development. Demonstrated ability to lead technical subteams and deliver measurable results on real-world
           space systems and embedded hardware projects. Seeking an internship in aerospace or defense engineering.        </div>
+        <a
+          className="project-link"
+          href="https://github.com/jpsteckel/portfolio/blob/main/public/js_resume_9s27.pdf"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Open my resume in a new tab"
+        > View my resume </a>
         <div className="relative text-sm text-black w-4xl text-center pointer-events-none">
           Here are some of my personal projects, feel free to check them out!
           Also, make sure WebGL is enabled in your browser to see the interactive background effect. More info at the bottom of the page.
