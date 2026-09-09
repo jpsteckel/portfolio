@@ -10,7 +10,7 @@ export default function CodeBlock({ text, language = 'javascript', className }) 
       language={language}
       style={atomDark}
       wrapLongLines
-      customStyle={{ background: 'black', paddingLeft: '60px', paddingRight: '60px', borderRadius: '30px' }}
+      customStyle={{ background: 'transparent', padding: '1.25rem 1.25rem 1.25rem 1.5rem', borderRadius: '0.9rem', fontSize: '0.85rem', margin: 0 }}
       className={className}
     >
       {text}
