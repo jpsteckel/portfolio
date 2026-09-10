@@ -182,6 +182,7 @@ body {
   max-width: 600px;
   pointer-events: none;
   transition: transform 300ms ease;
+  border-radius: 1rem;
 }
 
 .media-frame .project-image {

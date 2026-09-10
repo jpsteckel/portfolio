@@ -49,7 +49,7 @@ export default function Home() {
             space systems and embedded hardware projects. Seeking an internship in aerospace or defense engineering.        </p>
           <a
             className="project-link"
-            href="https://github.com/jpsteckel/portfolio/blob/main/public/js_resume_9s27.pdf"
+            href="https://github.com/jpsteckel/resume-public/blob/main/resume.pdf"
             target="_blank"
             rel="noreferrer"
             aria-label="Open my resume in a new tab"
@@ -78,13 +78,11 @@ export default function Home() {
               <span>Explore Mintastic</span>
               <span className="project-link-arrow" aria-hidden="true">-&gt;</span>
             </a>
-            <div className="media-frame flex flex-row items-center justify-center w-full">
-              <Image
-                src={proj1pic1}
-                alt="Altoids Tin Meshtastic Node"
-                width={600}
-                className="project-image" />
-            </div>
+            <Image
+              src={proj1pic1}
+              alt="Altoids Tin Meshtastic Node"
+              width={600}
+              className="project-image" />
             <div className="section-label relative text-center">
               DESCRIPTION
             </div>
@@ -103,13 +101,11 @@ export default function Home() {
               I will have to create a second version due to some small design issues with the board.
               I want to include a local keyboard for communication without a phone or computer, so I will create this new version from scratch. Finalizing Mintastic is delayed for now as I want to work on some new projects.
             </p>
-            <div className="media-frame flex flex-row items-center justify-center w-full">
-              <Image
-                src={proj1pic2}
-                alt="Altoids Tin Meshtastic Node"
-                width={600}
-                className="project-image" />
-            </div>
+            <Image
+              src={proj1pic2}
+              alt="Altoids Tin Meshtastic Node"
+              width={600}
+              className="project-image" />
           </section>
 
           <section className="site-card flex flex-col items-center justify-center w-full gap-5 sm:gap-6" id="project2" aria-labelledby="project2-title">
@@ -120,13 +116,11 @@ export default function Home() {
               </h2>
             </div>
             <div className="flex flex-col md:flex-row items-center md:items-start justify-center w-full gap-6">
-              <div className="media-frame w-full max-w-[400px]">
-                <Image
-                  src={proj2pic1}
-                  alt="Bus Departure Board"
-                  width={400}
-                  className="project-image max-w-[400px]" />
-              </div>
+              <Image
+                src={proj2pic1}
+                alt="Bus Departure Board"
+                width={400}
+                className="project-image max-w-[400px]" />
               <div className="relative flex flex-col items-center text-sm sm:text-base font-bold text-black text-center w-full max-w-md">
                 Video I made documenting the process:
                 <TikTokEmbed />
