@@ -33,7 +33,7 @@ export default function Home() {
       <div className="relative flex flex-col items-center justify-start w-full max-w-5xl px-6 sm:px-10 py-10 sm:py-16 gap-8 sm:gap-10">
         <div className="flex w-full justify-end">
           <div className="meta-pill">
-            Last Updated: 9/9/2026
+            Last Updated: 9/17/2026
           </div>
         </div>
 
@@ -93,13 +93,19 @@ export default function Home() {
               STATUS
             </div>
             <p className="page-copy relative text-sm sm:text-base max-w-3xl text-center">
-              Currently, I have finalized the circuit design and PCB layout, and have received the PCBs and components.
-              I have completed the firmware development and tested it. After testing is complete, I will deploy the nodes
-              in a mesh network to evaluate their performance and range.
+              After assembly and testing, I found two design errors that, while not stopping the board from functioning, will call for some redesigning.
             </p>
             <p className="page-copy relative text-sm sm:text-base max-w-3xl text-center">
-              I will have to create a second version due to some small design issues with the board.
-              I want to include a local keyboard for communication without a phone or computer, so I will create this new version from scratch. Finalizing Mintastic is delayed for now as I want to work on some new projects.
+              First, when I changed from a linear regulator to a switching one, I forgot to make sure the minimum input voltage matched with the battery voltage (3.7V). To fix this for testing, I've removed the battery circuitry and soldered the 5V USB power directly to the V_BAT node. This works, but removes battery powered capabilities.
+            </p>
+            <p className="page-copy relative text-sm sm:text-base max-w-3xl text-center">
+              Second, the WIO-SX1262 LoRa module I had selected has an on-module IPEX connector which the RF pin is connected to, meaning the SMA connector I added is disconnected. I found that there is a WIO-SX1262-N module that has the external antenna connection present, which I will use in the future. For now, I'll just buy an IPEX UHF antenna and use it for testing.
+            </p>
+            <p className="page-copy relative text-sm sm:text-base max-w-3xl text-center">
+              The main lesson I've learned from this project is the importance of reviewing my circuits with AI before sending them to be manufactured. I intended to do this project without use of AI, mostly in an effort to learn, but after the release of software like T3CAD (now Backplane), and GPT-6 Astra, the role that AI can play in hardware design is increasingly obvious. In the future, I will always use AI to review my boards and catch errors before fabrication. While it can't design circuits itself, it can certainly read through datasheets much faster than I can.
+            </p>
+            <p className="page-copy relative text-sm sm:text-base max-w-3xl text-center">
+              Finally, I designed this device without knowing how I would assemble it. For certain components, I chose packages that were much to small to hand-solder realistically (Yes, I hand-soldered 0201 resistors.) I now have the capability to use a hot plate and solder paste to assemble a board, but I will also put more thought into the packages I choose.
             </p>
             <Image
               src={proj1pic2}
